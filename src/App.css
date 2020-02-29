@@ -19,6 +19,37 @@ nav {
   /*background: #1c1e24;*/
   color: antiquewhite;
 }
+section{
+  display: flex;
+}
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 83px;
+  line-height: 114.3%;
+  color: #38DFEB;
+  text-transform: capitalize;
+  letter-spacing: -0.01em;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+header img{
+  
+  /* width: 200%;
+  height: 936px;
+  background: url(./Images/banner-img.png); */
+
+
+  width: 1078px;
+  height: 1004px;
+  left: 2px;
+  top: 161px;
+  
+}
 
 .Container{
   display: flex;
@@ -29,7 +60,6 @@ nav {
 .logo{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  font-style: 'Light:100';
   color: #38DFEB;
   text-transform: uppercase;
   letter-spacing: 10px;
@@ -38,10 +68,13 @@ nav {
   padding-left: 85px;
 }
 
+.Nav-items:hovar > .Nav-items{
+  color:white;
+}
 .Nav-items{
   font-size: 31px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 42%;
 }
@@ -70,6 +103,75 @@ nav {
 
 }
 
+.search{
+  border: 3px solid #38DFEB;
+  box-sizing: border-box;
+  border-radius: 73px;
+  width: 728px;
+  height: 69px;
+  margin-top: 20px;
+  background-color:#1F2833;
+  font-size: 33px;
+  color: white;
+  }
+
+.tags{
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
+  width: 60%;
+  transform: translate(15%,50%);
+}
+
+.tag-items{
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 114.3%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  list-style: none;
+}
+
+.tag-items li{
+  background: rgba(69, 162, 158, 0.1);
+  border-radius: 12px;  
+  width: 129.14px;
+height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.Title{
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 10%;
+}
+
+.title-para{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 139.3%;
+  width: 80%;
+  color: #C5C6C7;
+  margin-top: 20px;
+  }
+
+.white-box{
+  position: absolute;
+width: 100%;
+height: 750px;
+left: 2px;
+top: 1062px;
+
+background: #FEFEFE;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
