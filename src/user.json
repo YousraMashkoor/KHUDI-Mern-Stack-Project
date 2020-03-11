@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "skillTitle": "Design your tailered coat",
+        "name": "Ali Hassan",
+        "image": "tailor-coat.jpg",
+        "stars": 5,
+        "price": 500
+    },
+    {
+        "id": 2,
+        "skillTitle": "Custom build clayworks and designs",
+        "name": "Ali Hassan",
+        "image": "clay-work.jpg",
+        "stars": 5,
+        "price": 500
+    },
+    {
+        "id": 3,
+        "skillTitle": "Design your own cakes",
+        "name": "Ali Hassan",
+        "image": "123.jpg",
+        "stars": 5,
+        "price": 500
+    },
+    {
+        "id": 4,
+        "skillTitle": "Get your companies logo designed to best fit your need",
+        "name": "Ali Hassan",
+        "image": "",
+        "stars": 5,
+        "price": 500
+    },
+    {
+        "id": 5,
+        "skillTitle": "I want to sell fries",
+        "name": "Ali Hassan",
+        "image": "",
+        "stars": 5,
+        "price": 500
+    },
+    {
+        "id": 6,
+        "skillTitle": "cats are life",
+        "name": "Ali Hassan",
+        "image": "",
+        "stars": 5,
+        "price": 500
+    },
+    {
+        "id": 7,
+        "skillTitle": "Coronavirues rises to 4 cases in pakistan",
+        "name": "Ali Hassan",
+        "image": "",
+        "stars": 5,
+        "price": 500
+    }
+]

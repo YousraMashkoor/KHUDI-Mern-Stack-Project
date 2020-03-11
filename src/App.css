@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 
 .App {
   text-align: center;
@@ -9,6 +9,61 @@
   box-sizing: border-box;
 }
 
+#button:disabled{
+width: 50%;
+height: 5vh;
+
+background: rgb(132, 160, 158);
+opacity: 0.9;
+border-radius: 10px;
+
+font-weight: normal;
+font-size: 23px;
+line-height: 19px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: rgb(0, 0, 0);
+
+outline: none;
+
+}
+
+#button:enabled{
+width: 50%;
+height: 5vh;
+color: #FFFFFF;
+
+background: #45A29E;
+opacity: 0.9;
+box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.26);
+border-radius: 10px;
+
+font-weight: normal;
+font-size: 23px;
+line-height: 19px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+outline: none;
+}
+
+#button:enabled:hover{
+  background: #38DFEB;
+}
+
+.checkbox-my svg{
+  font-size: 240%;
+}
+
+.checkbox-my .MuiTypography-body1{
+  font-size: 20px;
+  color: #45A29E;
+}
 nav {
   list-style: none;
   display: flex;
@@ -57,6 +112,172 @@ header img{
   max-width: 100%;
 }
 
+.footer{
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 29px;
+  line-height: 34px;
+  text-transform: capitalize;
+
+  position: relative;
+  width: 100%;
+  height: 700px;
+  color: #C5C6C7;
+}
+
+.footer .footer-bottom{
+  position: absolute;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer .footer-content{
+  margin-top: 200px;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  bottom: 59px;
+}
+.footer .footer-content .footer-app{
+  width: 20%;
+  margin-left: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer .footer-content .footer-app img{
+  width: 100%;
+}
+.footer .footer-content .footer-app .appstore-image{
+  width: 88%;
+  border: 2px solid #C5C6C7;
+  margin-left: 3vh;
+
+  }
+
+.footer .footer-content .footer-app h3{
+ margin-left: 3vh;
+ margin-bottom: 2vh;
+}
+
+.footer .footer-content .footer-search{
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  width: 40%;
+
+font-style: normal;
+font-weight: 100;
+font-size: 22px;
+line-height: 39px;
+text-transform: capitalize;
+color: #C5C6C7;
+}
+.footer .footer-content .footer-search .search-items{
+  margin-right: 2vh;
+}
+
+.footer .footer-bottom .social-media{
+  width: 80%;
+  display: flex;
+  align-self: center;
+  padding-left: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin-bottom: 3vh;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.footer .footer-bottom .social-media p{
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-self: center;
+  margin-left: 2vh;
+}
+
+.footer .footer-bottom .social-media a{
+  text-decoration: none;
+  padding: 2vh;
+  margin: 1vh;
+  color: #FFFFFF;
+  font-size: 50px;
+  border: 3px solid #45A29E;
+}
+.login-main{
+  background: #FEFEFE;
+  height: 100%;
+  color: #1f2833;
+}
+
+.login-main .login-body{
+  height:757px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-main .login-body h2{
+font-weight: 700;
+font-size: 53px;
+line-height: 139.3%;
+
+text-transform: capitalize;
+color: rgba(69, 162, 158, 0.77);
+}
+
+.login-main .login-body p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 139.3%;
+padding-top: 10px;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+  border-top: 1px solid #1F2833;
+
+}
+
+.login-main .login-body .login-users img{
+  width: 80%;
+}
+
+.login-main .login-body .login-users{
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.login-main .login-body .login-users .login-seller, .login-buyer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-header-top{
+  background:#1f2833;
+  height:112px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login-header-top h1{
+  margin-left: 20%;
+  letter-spacing: 5px;
+}
 .logo{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -99,8 +320,40 @@ header img{
   border-radius: 54px;
   margin-right: 50px;
   background-color: #45A29E;
+  /* background: linear-gradient(90deg, #03a9f4,#f441a5, #ffeb3b,#03a9f4);
+  background-size: 400%; */
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  outline: none;
+}
+.Nav-items button:active{
+  box-shadow:0 0 0 3px #1F2833, inset 4px 4px 4px #1F2833;
+  transform: translate(6px, 6px);
+  background-color: rgb(52, 107, 104);
+}
+.Nav-items button:hover{
+  background: linear-gradient(90deg, #03a9f4,#f441a5, #ffeb3b,#03a9f4);
+  background-size: 400%;
 
+  animation: animate 8s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0%;
+  }
+  
+  100%{
+    background-position: 400%;
+  }
+}
+.sample-img img{
+  object-fit: initial;
+  height: 400px;
+  width: auto;
+  z-index: -5;
+  position: absolute;
 }
 
 .search{
@@ -114,6 +367,49 @@ header img{
   font-size: 33px;
   color: white;
   }
+
+.Slide{
+  width: 100% ;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.slider-box{
+  position: absolute;
+  height: 300px;
+/* width: 429px; */
+display: flex;
+
+background: blueviolet;
+border: 4px solid #38DFEB;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+
+}
+
+/* .slick-track{
+  height: 300px;
+} */
+
+.slide-content{
+  height: 400px;
+  margin: 20px;
+  border: 4px solid #38DFEB;
+  /* background: url(./Images/tailor-coat.jpg); */
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+/* .slick-list{
+  height: 310px;
+
+} */
+
+
 
 .tags{
   display: flex;
@@ -206,3 +502,5 @@ background: #FEFEFE;
     transform: rotate(360deg);
   }
 }
+
+

@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 import '../App.css';
 
 
@@ -15,7 +17,9 @@ const Nav = ()=>{
                         <li >Browse Skills</li>
                         <li >Log In</li>
                     </ul>
-                    <button>Join Us</button>
+                    <Link to='/login'>
+                        <button>Join Us</button>
+                    </Link>
                 </div>
             </nav>
         </div>
