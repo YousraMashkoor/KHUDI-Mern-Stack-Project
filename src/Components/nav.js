@@ -6,7 +6,7 @@ import '../App.css';
 
 const Nav = ()=>{
     return(
-        <div className='Container'>   
+        <div className='Container'>
             <nav>
                 <div className='logo'>
                     <h3>KHUDI</h3>

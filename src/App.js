@@ -9,20 +9,22 @@ import SkillSlider from './Components/SkillSlider';
 
 
 const App=()=> {
+  
+    
   return (
-    <Router>
-      <Switch>
-        <Route path='/' exact render={props=>
-        <div>
-          <Nav/>
-          <Banner/>
-          <SkillSlider/>
-          <Footer/>
-        </div>
-      }/>
-      <Route path='/Login' component={LoginMain}/>
-      </Switch>
-    </Router>
+        <Router>
+          <Switch>
+            <Route path='/' exact render={props=>
+              <div>
+                <Nav/>
+                <Banner/>
+                <SkillSlider/>
+                <Footer/>
+              </div>
+            }/>
+            <Route path='/Login' component={LoginMain}/>
+          </Switch>
+        </Router>
   );
 }
 
